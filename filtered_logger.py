@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 """
 Script for handling Personal Data
@@ -124,5 +123,3 @@ class RedactingFormatter(logging.Formatter):
         return super(RedactingFormatter, self).format(record)
 
 
-if __name__ == '__main__':
-    main()
